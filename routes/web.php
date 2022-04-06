@@ -17,9 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/myprofile', function () {
+Route::get('myprofile', function () {
     return view('myprofile');
 });
-Route::get('/biography', function () {
+Route::get('biography', function () {
     return view('biography');
 });
